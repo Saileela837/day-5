@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Billing form</title>
+</head>
+<body>
+    <div class="container bg-info">
+        <div class="row">
+            <div class="col-8">
+                <h4>Billing Address</h4>
+                <form>
+                    <div class="row">
+                        <div class="col-6">
+                            <label class="form-label" form="Firstname">First Name</label>
+                            <input type="text" id="firstname" class="form-control">
+                        </div>
+                        <div class="col-6">
+                            <label class="form-label" form="lastname">Last name</label>
+                            <input type="text" id="lastname" class="form-control">
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label" form="username">Username</label>
+                            <div class="input-group">
+                                <span class="input-group-text">@</span>
+                                <input type="text" class="form-control" id="usrname" placeholder="username">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                        <label class="form-label" form="email">email
+                            <span class="text-muted">(Optional)</span>
+                            </label>
+                            <input type="text" id="lastname" class="form-control" placeholder="you@example.com">
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label" for="lastname">Address</label>
+                            <input type="text" id="address" class="form-control" placeholder="1234 Main St">
+                        </div>
+                        <div class="col-12">
+                        <label class="form-label" form="email">Address
+                            <span class="text-muted">(Optional)</span>
+                            </label>
+                            <input type="text" id="address" class="form-control" placeholder="Apartment of suite">
+                            </div>
+                            <div class="col-5">
+                                <label class="form-label" form="country">Country</label>
+                                <select class="form-control" id="country" aria-label="Default select example">
+                                    <option>Choose</option>
+                                    <option>India</option>
+                                </select>
+                            </div>
+                            <div class="col-4">
+                                <label class="form-label" form="state">State</label>
+                                <select class="form-control" id="state" aria-label="Default select example">
+                                    <option>Choose</option>
+                                    <option>Andhra pradesh</option>
+                                    <option>kerala</option>
+                                    <option> karnataka</option>
+                                </select>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label" form="zip">Zip</label>
+                                <input type="text" id="address" class="form-control">
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input">
+                                <label class="form-check-label">Shipping address is the same as my billing address</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input">
+                                <label class="form-check-label">save this information for next time</label>
+                            </div>
+                            <hr>
+                            <h4>Payment</h4>
+                            <div class="form-check">
+                            <input type="radio" class="form-check-input">
+                            <label class="form-check-label">Credit Card</label>
+                            </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input">
+                        <label class="form-check-label">Debit Card</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input">
+                        <label class="form-check-label">Paypal</label>
+                    <div class="row">
+                        <div class="col-6">
+                            <label class="form-label" form="cardname">Name on card</label>
+                            <input type="text" id="creditcard" class="form-control">
+                            <small class="text-muted" >Full name is displayes on card</small>
+                        </div>
+                        <div class="col-6">
+                            <label class="form-label" form="creditcard">credit card number</label>
+                            <input type="text" id="creditcard" class="form-control">
+                        </div>
+                         <div class="col-3">
+                                <label class="form-label" form="expiration">expiration</label>
+                                <input type="text" id="expiration" class="form-control">
+                        </div>
+                        <div class="col-6">
+                            <label class="form-label" form="cvv">CVV</label>
+                            <input type="text" id="cvv" class="form-control">
+                        </div>
+                    </div><br>
+                    <button type="submit" class="btn btn-primary btn-block" style="width:100%">Continue To Checkout</button>
+                </form>
+            </div>
+        </div>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
